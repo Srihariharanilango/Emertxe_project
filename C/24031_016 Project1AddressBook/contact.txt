@@ -1,0 +1,27 @@
+10
+John Doe 1234567890 john@example.com
+Alice Smith 0987654321 alice@example.com,987654321 alice@example.com,ple.com
+Bob Johnson 1112223333 bob@company.com
+Carol White7778889999 david@example.com,7778889999 david@example.com,mple.com
+Eve Davis 6665554444 eve@example.com
+Frank Miller 2223334444 grace@exaample.com,2223334444 grace@exaample.com,ample.com
+Hannah Clark 5556667777 hannah@example.com
+Ian Lewalice@example.com
+Boob Johnson 1112223333 bob@company.com,alice@example.com
+Boob Johnson 1112223333 bob@company.com,ob Johnson 1112223333 bob@company.com
+Carol White 4445556666 carol@company.com
+David Bro9 david@example.com
+Eve Davis 6665554444 eve@example.com,9 david@example.com
+Eve Davis 6665554444 eve@example.com,Eve Davis 6665554444 eve@example.com
+Frank Miller 3334445555 frank@example.com
+Grace Wi44 grace@example.comHannah Clark 5556667777 hannah@example.com,44 grace@example.comHannah Clark 5556667777 hannah@example.com,Hannah Clark 5556667777 hannah@example.com
+Ian Lewis 8889990000 ian@example.com
+	ple.com
+Bob n 1112223333 bob@company.com,n 1112223333 bob@company.com,pany.com
+Carol White 4445556666 carol@company.com
+David Bro6665554444 eve@exampple.com,6665554444 eve@exampple.com,ple.com
+Frank Miller 3334445555 frank@example.com
+Grace Wilark 5556667777 hannah@example.com,lark 5556667777 hannah@example.com,ah@example.com
+Ian Lewis 8889990000 ian@example.com
+	
+ol White 44own 7778889999 david@example.com,own 7778889999 david@example.com,@example.com
