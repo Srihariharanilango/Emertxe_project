@@ -1,0 +1,490 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"37 ./clcd.h
+[; ;./clcd.h: 37: void init_clcd(void);
+[v _init_clcd `(v ~T0 @X0 0 ef ]
+"12 ./timers.h
+[; ;./timers.h: 12: void init_timer2(void);
+[v _init_timer2 `(v ~T0 @X0 0 ef ]
+"29 ./matrix_keypad.h
+[; ;./matrix_keypad.h: 29: void init_matrix_keypad(void);
+[v _init_matrix_keypad `(v ~T0 @X0 0 ef ]
+"2962 C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2962: extern volatile __bit TRISC1 __attribute__((address(0x439)));
+[v _TRISC1 `Vb ~T0 @X0 0 e@1081 ]
+"2965
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2965: extern volatile __bit TRISC2 __attribute__((address(0x43A)));
+[v _TRISC2 `Vb ~T0 @X0 0 e@1082 ]
+"2629
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2629: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"2569
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2569: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+[p mainexit ]
+"39 ./clcd.h
+[; ;./clcd.h: 39: void clcd_print(const char *str, unsigned char addr);
+[v _clcd_print `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+"38
+[; ;./clcd.h: 38: void clcd_putch(const char data, unsigned char addr);
+[v _clcd_putch `(v ~T0 @X0 0 ef2`Cuc`uc ]
+[v F1166 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include/pic.h
+[v __delay `JF1166 ~T0 @X0 0 e ]
+[p i __delay ]
+"28 ./matrix_keypad.h
+[; ;./matrix_keypad.h: 28: unsigned char read_matrix_keypad(unsigned char mode);
+[v _read_matrix_keypad `(uc ~T0 @X0 0 ef1`uc ]
+"4 ./microwave_def.h
+[; ;./microwave_def.h: 4: void menu_screen(unsigned char);
+[v _menu_screen `(v ~T0 @X0 0 ef1`uc ]
+"7
+[; ;./microwave_def.h: 7: void micro_mode(unsigned char);
+[v _micro_mode `(v ~T0 @X0 0 ef1`uc ]
+"9
+[; ;./microwave_def.h: 9: void convention_mode(unsigned char);
+[v _convention_mode `(v ~T0 @X0 0 ef1`uc ]
+"12
+[; ;./microwave_def.h: 12: void start_mode_screen();
+[v _start_mode_screen `(v ~T0 @X0 0 e? ]
+"54 C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Users/acer/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"3 main.c
+[; ;main.c: 3: void init_config()
+[p x WDTE  =  OFF ]
+"6
+[; ;main.c: 6:     init_clcd();
+[v _control_flag `uc ~T0 @X0 1 e ]
+"8
+[; ;main.c: 8:     init_matrix_keypad();
+[v _init_config `(v ~T0 @X0 1 ef ]
+"9
+[; ;main.c: 9: 
+{
+[e :U _init_config ]
+[f ]
+"11
+[; ;main.c: 11:     TRISC1 = 0;
+[e ( _init_clcd ..  ]
+"12
+[; ;main.c: 12:     TRISC2 = 0;
+[e ( _init_timer2 ..  ]
+"13
+[; ;main.c: 13: 
+[e ( _init_matrix_keypad ..  ]
+"16
+[; ;main.c: 16:     GIE = 1;
+[e = _TRISC1 -> -> 0 `i `b ]
+"17
+[; ;main.c: 17: }
+[e = _TRISC2 -> -> 0 `i `b ]
+"20
+[; ;main.c: 20: {
+[e = _PEIE -> -> 1 `i `b ]
+"21
+[; ;main.c: 21:     init_config();
+[e = _GIE -> -> 1 `i `b ]
+"22
+[; ;main.c: 22: 
+[e :UE 100 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"24
+[; ;main.c: 24: 
+[v _main `(v ~T0 @X0 1 ef ]
+"25
+[; ;main.c: 25: 
+{
+[e :U _main ]
+[f ]
+"26
+[; ;main.c: 26:     clcd_print("Powering on", (0xC0 + 3));
+[e ( _init_config ..  ]
+"28
+[; ;main.c: 28: 
+[v _key `uc ~T0 @X0 1 a ]
+[v _reset_flag `uc ~T0 @X0 1 a ]
+[e = _reset_flag -> -> 32 `i `uc ]
+"31
+[; ;main.c: 31:         clcd_putch(0xFF, (0x80 + i));
+[e ( _clcd_print (2 , :s 1C -> + -> 192 `i -> 3 `i `uc ]
+"32
+[; ;main.c: 32:         clcd_putch(0xFF, (0xD0 + i));
+[e ( _clcd_print (2 , :s 2C -> + -> 144 `i -> 2 `i `uc ]
+"34
+[; ;main.c: 34:     }
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 102  ]
+[e $U 103  ]
+[e :U 102 ]
+"35
+[; ;main.c: 35: 
+{
+"36
+[; ;main.c: 36:     _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 128 `i -> _i `i `uc ]
+"37
+[; ;main.c: 37: 
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 208 `i -> _i `i `uc ]
+"38
+[; ;main.c: 38:     control_flag = 0x11;
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"39
+[; ;main.c: 39: 
+}
+[e =+ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 102  ]
+[e :U 103 ]
+}
+"41
+[; ;main.c: 41:     {
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"43
+[; ;main.c: 43: 
+[e = _control_flag -> -> 17 `i `uc ]
+"45
+[; ;main.c: 45:         if (control_flag == 0x11)
+[e :U 106 ]
+"46
+[; ;main.c: 46:         {
+{
+"47
+[; ;main.c: 47:             switch (key)
+[e = _key ( _read_matrix_keypad (1 -> -> 1 `i `uc ]
+"50
+[; ;main.c: 50:                     control_flag = 0x12;
+[e $ ! == -> _control_flag `i -> 17 `i 108  ]
+"51
+[; ;main.c: 51:                     reset_flag = 0x20;
+{
+"52
+[; ;main.c: 52:                     break;
+[e $U 110  ]
+"53
+[; ;main.c: 53: 
+{
+"54
+[; ;main.c: 54:                 case 2:
+[e :U 111 ]
+"55
+[; ;main.c: 55:                     control_flag = 0x13;
+[e = _control_flag -> -> 18 `i `uc ]
+"56
+[; ;main.c: 56:                     reset_flag = 0x20;
+[e = _reset_flag -> -> 32 `i `uc ]
+"57
+[; ;main.c: 57:                     break;
+[e $U 109  ]
+"59
+[; ;main.c: 59:                 case 3:
+[e :U 112 ]
+"60
+[; ;main.c: 60:                     control_flag = 0X14;
+[e = _control_flag -> -> 19 `i `uc ]
+"61
+[; ;main.c: 61:                     reset_flag = 0x20;
+[e = _reset_flag -> -> 32 `i `uc ]
+"62
+[; ;main.c: 62:                     break;
+[e $U 109  ]
+"64
+[; ;main.c: 64:                 case 4:
+[e :U 113 ]
+"65
+[; ;main.c: 65:                     control_flag = 0x15;
+[e = _control_flag -> -> 20 `i `uc ]
+"66
+[; ;main.c: 66:                     break;
+[e = _reset_flag -> -> 32 `i `uc ]
+"67
+[; ;main.c: 67: 
+[e $U 109  ]
+"69
+[; ;main.c: 69:                     break;
+[e :U 114 ]
+"70
+[; ;main.c: 70:             }
+[e = _control_flag -> -> 21 `i `uc ]
+"71
+[; ;main.c: 71:         }
+[e $U 109  ]
+"73
+[; ;main.c: 73: 
+[e :U 115 ]
+"74
+[; ;main.c: 74:         switch (control_flag)
+[e $U 109  ]
+"75
+[; ;main.c: 75:         {
+}
+[e $U 109  ]
+[e :U 110 ]
+[e [\ _key , $ -> 1 `i 111
+ , $ -> 2 `i 112
+ , $ -> 3 `i 113
+ , $ -> 4 `i 114
+ 115 ]
+[e :U 109 ]
+"76
+[; ;main.c: 76:             case 0x11:
+}
+[e :U 108 ]
+"79
+[; ;main.c: 79: 
+[e $U 117  ]
+"80
+[; ;main.c: 80:             case 0x12:
+{
+"81
+[; ;main.c: 81:                 micro_mode(reset_flag);
+[e :U 118 ]
+"82
+[; ;main.c: 82:                 break;
+[e ( _menu_screen (1 _reset_flag ]
+"83
+[; ;main.c: 83: 
+[e $U 116  ]
+"85
+[; ;main.c: 85:                 micro_mode(reset_flag);
+[e :U 119 ]
+"86
+[; ;main.c: 86:                 break;
+[e ( _micro_mode (1 _reset_flag ]
+"87
+[; ;main.c: 87: 
+[e $U 116  ]
+"89
+[; ;main.c: 89:                 convention_mode(reset_flag);
+[e :U 120 ]
+"90
+[; ;main.c: 90:                 break;
+[e ( _micro_mode (1 _reset_flag ]
+"91
+[; ;main.c: 91: 
+[e $U 116  ]
+"93
+[; ;main.c: 93:                 start_mode_screen();
+[e :U 121 ]
+"94
+[; ;main.c: 94:                 break;
+[e ( _convention_mode (1 _reset_flag ]
+"95
+[; ;main.c: 95: 
+[e $U 116  ]
+"97
+[; ;main.c: 97:                 break;
+[e :U 122 ]
+"98
+[; ;main.c: 98:         }
+[e ( _start_mode_screen ..  ]
+"99
+[; ;main.c: 99: 
+[e $U 116  ]
+"101
+[; ;main.c: 101:     }
+[e :U 123 ]
+"102
+[; ;main.c: 102: }
+[e $U 116  ]
+"103
+}
+[e $U 116  ]
+[e :U 117 ]
+[e [\ _control_flag , $ -> 17 `i 118
+ , $ -> 18 `i 119
+ , $ -> 19 `i 120
+ , $ -> 20 `i 121
+ , $ -> 21 `i 122
+ 123 ]
+[e :U 116 ]
+"105
+[e = _reset_flag -> -> 33 `i `uc ]
+"106
+}
+[e :U 105 ]
+[e $U 106  ]
+[e :U 107 ]
+"107
+[e :UE 101 ]
+}
+[a 1C 80 111 119 101 114 105 110 103 32 111 110 0 ]
+[a 2C 77 105 99 114 111 119 97 118 101 32 111 118 101 110 0 ]
