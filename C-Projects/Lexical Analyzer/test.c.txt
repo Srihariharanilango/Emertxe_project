@@ -1,0 +1,1 @@
+int x = ab + bc + 30 + switch + 0y;
