@@ -1,0 +1,33 @@
+                                                     Car Black Box (CBB) implementation
+Brief:
+Black Boxes are typically used in any transportation system (ex: Airplanes) that are used for analysis post-crash and understand
+the root cause of accidents. Continuous monitoring and logging of events (ex: over-speeding) is critical for effective usage of black box. 
+The goal of this project is to implement core functionalities of a care black-box in a PIC based micro-controller supported by rich peripherals.
+Events will be logged in EEPROM in this project. This project can be further extended to any vehicle.
+
+Pre-requisite:
+PIC micro-controller & schematics
+Peripheral (ex: Potentiometer) handling by understanding data-sheets
+Interrupt handling
+
+Level:
+Intermediate
+======================================================================================================================================================================
+
+                                                                    Microwave Oven — Project
+
+Brief:
+A domestic microwave oven that heats food with precise time and power control,  and event logging. The system is implemented on a PIC microcontroller. The project demonstrates peripheral interfacing, interrupt handling, real‑time control, and reliable non-volatile logging. 
+It can be extended with features such as type-based auto-cook.
+Pre-requisite:
+
+PIC microcontroller (suggested: PIC16F877A or PIC18F452) and basic schematics
+
+Understanding of peripheral datasheets (keypad, LCD, motor driver, temperature sensors)
+
+Interrupt handling & debouncing techniques
+
+
+Level:
+
+Intermediate
