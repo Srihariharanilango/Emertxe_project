@@ -1,1 +1,1 @@
-
+These are C Programming Projects for Beginners and Engineering Students. C Programming Projects are the testimonials that we have learned a technology well. In Emertxe, it has a hand-picked set of projects, ensuring you apply all your learnings of C programming. These C projects exposed us to the Software Development Life Cycle (SDLC), providing hands-on experience in building real-time industry projects. Explore the list of projects for our Advanced C programming course.
