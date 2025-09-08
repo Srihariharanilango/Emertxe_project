@@ -11,3 +11,5 @@ worked on increase the quality of the image taken from THz imaging system using
 MATLAB and image processing techniques. 
 • This training provided insights into real-time project challenges, industry 
 standards, and enhanced my skills in MATLAB and image processing.  
+
+This project contains the list of project as part of curriculum in emertze used to increase my expertise in thee field and also being able to experience working of realtime projects
